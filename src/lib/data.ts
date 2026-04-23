@@ -1,0 +1,122 @@
+export const PRODUCTS = [
+  {
+    id: "1",
+    title: "Linen Summer Dress",
+    price: 120,
+    category: "Chic",
+    image: "https://images.unsplash.com/photo-1515347619152-14123c126839?auto=format&fit=crop&q=80&w=800",
+    height: "h-[400px]",
+    tailorAvailable: true,
+  },
+  {
+    id: "2",
+    title: "Oversized Wool Coat",
+    price: 280,
+    category: "Elegant",
+    image: "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&q=80&w=800",
+    height: "h-[500px]",
+    tailorAvailable: true,
+  },
+  {
+    id: "3",
+    title: "Minimalist Silk Blouse",
+    price: 95,
+    category: "Casual",
+    image: "https://images.unsplash.com/photo-1485230895905-ef40ba366909?auto=format&fit=crop&q=80&w=800",
+    height: "h-[300px]",
+    tailorAvailable: false,
+  },
+  {
+    id: "4",
+    title: "Tailored Trousers",
+    price: 150,
+    category: "Chic",
+    image: "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&q=80&w=800",
+    height: "h-[450px]",
+    tailorAvailable: true,
+  },
+  {
+    id: "5",
+    title: "Streetwear Cargo Pants",
+    price: 110,
+    category: "Streetwear",
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=800",
+    height: "h-[350px]",
+    tailorAvailable: true,
+  },
+  {
+    id: "6",
+    title: "Cashmere Turtleneck",
+    price: 190,
+    category: "Elegant",
+    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&q=80&w=800",
+    height: "h-[400px]",
+    tailorAvailable: true,
+  },
+  {
+    id: "7",
+    title: "Vintage Denim Jacket",
+    price: 130,
+    category: "Casual",
+    image: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&q=80&w=800",
+    height: "h-[300px]",
+    tailorAvailable: false,
+  },
+  {
+    id: "8",
+    title: "Pleated Midi Skirt",
+    price: 85,
+    category: "Chic",
+    image: "https://images.unsplash.com/photo-1583391733958-d15f07e9380d?auto=format&fit=crop&q=80&w=800",
+    height: "h-[450px]",
+    tailorAvailable: true,
+  },
+]
+
+export const TAILORS = [
+  {
+    id: "t1",
+    name: "Elena Rossi",
+    specialties: ["Dresses", "Evening Wear", "Silk"],
+    rating: 4.9,
+    reviews: 124,
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
+    location: "Milan, Italy",
+    bio: "With over 15 years of experience in high fashion, I specialize in creating elegant, made-to-measure dresses that perfectly fit your silhouette.",
+    portfolio: [
+      "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&q=80&w=400",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=400",
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&q=80&w=400",
+    ]
+  },
+  {
+    id: "t2",
+    name: "Marcus Chen",
+    specialties: ["Suits", "Trousers", "Wool"],
+    rating: 4.8,
+    reviews: 89,
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
+    location: "London, UK",
+    bio: "A Savile Row trained tailor bringing traditional bespoke techniques to modern, everyday menswear and womenswear.",
+    portfolio: [
+      "https://images.unsplash.com/photo-1594938298596-03ef667d0745?auto=format&fit=crop&q=80&w=400",
+      "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80&w=400",
+      "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&q=80&w=400",
+    ]
+  },
+  {
+    id: "t3",
+    name: "Sarah Jenkins",
+    specialties: ["Streetwear", "Denim", "Upcycling"],
+    rating: 4.7,
+    reviews: 56,
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400",
+    location: "New York, USA",
+    bio: "I love transforming vintage pieces and creating unique streetwear that stands out. Let's make something edgy together.",
+    portfolio: [
+      "https://images.unsplash.com/photo-1523398002811-999aa8d9512e?auto=format&fit=crop&q=80&w=400",
+      "https://images.unsplash.com/photo-1550614000-4b95d466f20d?auto=format&fit=crop&q=80&w=400",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=400",
+    ]
+  }
+]

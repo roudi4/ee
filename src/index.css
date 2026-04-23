@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+  
+  --color-stone-50: #faf9f7;
+  --color-stone-100: #f5f4f0;
+  --color-stone-200: #e6e4dd;
+  --color-stone-800: #292524;
+  --color-stone-900: #1c1917;
+  
+  --color-rose-50: #fff1f2;
+  --color-rose-100: #ffe4e6;
+  
+  --color-primary: #1c1917;
+  --color-secondary: #faf9f7;
+  --color-accent: #d6ccc2;
+}
+
+body {
+  background-color: var(--color-stone-50);
+  color: var(--color-stone-900);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Hide scrollbar for masonry */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
